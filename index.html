@@ -14,12 +14,60 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
-
+<body class="relative bg-magnolia h-screen">
+  <img src="./assets/images/bg-sidebar-mobile.svg" alt="sidebar image">
+  <div class="absolute top-0 w-full">
+    <div class="flex justify-center gap-x-5 w-full my-8">
+      <div class="border border-white rounded-full w-8 h-8 flex justify-center items-center">
+        <p class="font-bold text-white">1</p>
+      </div>
+      <div class="border border-white rounded-full w-8 h-8 flex justify-center items-center">
+        <p class="font-bold text-white">2</p>
+      </div>
+      <div class="border border-white rounded-full w-8 h-8 flex justify-center items-center">
+        <p class="font-bold text-white">3</p>
+      </div>
+      <div class="border border-white rounded-full w-8 h-8 flex justify-center items-center">
+        <p class="font-bold text-white">4</p>
+      </div>
+    </div>
+    <div class="bg-white rounded-lg mx-4 px-5 pt-4 pb-6">
+      <div class="my-3">
+        <p class="text-2xl text-marineblue font-bold text my-3">Personal info</p>
+        <p class="text-coolgray">Please provide your name, email address, and phone number.</p>
+      </div>
+      <div class="my-3">
+        <label for="username" class="block text-sm leading-6 text-marineblue">Name</label>
+        <div>
+          <div class="flex shadow-sm ring-1 ring-inset ring-gray-300 sm:max-w-md">
+            <input type="text" name="username" id="username" autocomplete="username" class="block flex-1 border-0 bg-transparent py-1.5 pl-3 lightgray placeholder:font-medium placeholder:lightgray focus:ring-0 sm:text-sm sm:leading-6" placeholder="e.g. Stephen King">
+          </div>
+        </div>
+      </div>
+      <div class="my-3">
+        <label for="Email Address" class="block text-sm leading-6 text-marineblue">Email Address</label>
+        <div>
+          <div class="flex shadow-sm ring-1 ring-inset ring-gray-300 sm:max-w-md">
+            <input type="email" name="Email Address" id="emailAddress" autocomplete="Email Address" class="block flex-1 border-0 bg-transparent py-1.5 pl-3 lightgray placeholder:font-medium placeholder:lightgray focus:ring-0 sm:text-sm sm:leading-6" placeholder="e.g. stephenking@lorem.com">
+          </div>
+        </div>
+      </div>
+      <div class="my-3">
+        <label for="username" class="block text-sm leading-6 text-marineblue">Phone Number</label>
+        <div>
+          <div class="flex shadow-sm ring-1 ring-inset ring-gray-300 sm:max-w-md">
+            <input type="tel" name="phoneNumber" id="phoneNumber" autocomplete="phoneNumber" class="block flex-1 border-0 bg-transparent py-1.5 pl-3 lightgray placeholder:font-medium placeholder:lightgray focus:ring-0 sm:text-sm sm:leading-6" placeholder="e.g. +1234567890">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-white p-4 bottom-0 absolute w-full">
+    <button type="button" class="float-right bg-marineblue text-white py-2 px-4 rounded-md">Next Step</button>
+  </div>
   <!-- Sidebar start -->
-  <p class="text-Purplishblue">Hi</p>
 
-  Step 1
+  <!-- Step 1
   Your info
 
   Step 2
@@ -29,13 +77,13 @@
   Add-ons
 
   Step 4
-  Summary
+  Summary -->
 
   <!-- Sidebar end -->
 
   <!-- Step 1 start -->
 
-  Personal info
+  <!-- Personal info
   Please provide your name, email address, and phone number.
 
   Name
@@ -47,13 +95,13 @@
   Phone Number
   e.g. +1 234 567 890
 
-  Next Step
+  Next Step -->
 
   <!-- Step 1 end -->
 
   <!-- Step 2 start -->
 
-  Select your plan
+  <!-- Select your plan
   You have the option of monthly or yearly billing.
 
   Arcade
@@ -69,13 +117,13 @@
   Yearly
 
   Go Back
-  Next Step
+  Next Step -->
 
   <!-- Step 2 end -->
 
   <!-- Step 3 start -->
 
-  Pick add-ons
+  <!-- Pick add-ons
   Add-ons help enhance your gaming experience.
 
   Online service
@@ -91,37 +139,37 @@
   +$2/mo
 
   Go Back
-  Next Step
+  Next Step -->
 
   <!-- Step 3 end -->
 
   <!-- Step 4 start -->
 
-  Finishing up
-  Double-check everything looks OK before confirming.
+  <!-- Finishing up
+  Double-check everything looks OK before confirming. -->
 
   <!-- Dynamically add subscription and add-on selections here -->
 
-  Total (per month/year)
+  <!-- Total (per month/year)
 
   Go Back
-  Confirm
+  Confirm -->
 
   <!-- Step 4 end -->
 
   <!-- Step 5 start -->
 
-  Thank you!
+  <!-- Thank you!
 
   Thanks for confirming your subscription! We hope you have fun 
   using our platform. If you ever need support, please feel free 
-  to email us at support@loremgaming.com.
+  to email us at support@loremgaming.com. -->
 
   <!-- Step 5 end -->
   
-  <div class="attribution">
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
 </html>
